@@ -3,9 +3,12 @@ package com.iqmsoft.entities;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.hibernate.validator.constraints.NotBlank;
+//import org.hibernate.validator.constraints.NotBlank;
 
 import javax.persistence.*;
+
+import org.hibernate.validator.constraints.NotBlank;
+
 import java.util.Date;
 
 @AllArgsConstructor @NoArgsConstructor @Data
